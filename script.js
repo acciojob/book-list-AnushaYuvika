@@ -3,7 +3,7 @@ let btn = document.querySelector("#submit");
 
 btn.addEventListener("click", function() {
 	let title = document.querySelector("#title").value.trim();
-	let author = document.querySelector("#author").value.trime();
+	let author = document.querySelector("#author").value.trim();
 	let isbn = document.querySelector("#isbn").value.trim();
 
 	if(title === "" || author === "" || isbn === "") {
