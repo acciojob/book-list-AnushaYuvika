@@ -23,7 +23,7 @@ btn.addEventListener("click", function() {
 	tableBody.appendChild(row);
 
 	document.querySelector("#title").value = "";
-	document.querySelectro("#author").value = "";
+	document.querySelector("#author").value = "";
 	document.querySelector("#isbn").value= "";
 });
 
