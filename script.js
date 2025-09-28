@@ -3,8 +3,8 @@ let btn = document.querySelector("#submit");
 
 btn.addEventListener("click", function() {
 	let title = document.querySelector("#title").value.trim();
-	let author = document.querySelector("#author");
-	let isbn = document.querySelector("#isbn");
+	let author = document.querySelector("#author").value.trime();
+	let isbn = document.querySelector("#isbn").value.trim();
 
 	if(title === "" || author === "" || isbn === "") {
 		alert("Please fill all fields");
