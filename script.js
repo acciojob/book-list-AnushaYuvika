@@ -28,8 +28,8 @@ btn.addEventListener("click", function() {
 });
 
 
-// document.querySelector("#book-list").addEventListener("click", function(e) {
-// 	if(e.target.classList.contains("delete")) {
-// 		e.target.parentElement.parentElement.remove();
-// 	}	
-// });
+document.querySelector("#book-list").addEventListener("click", function(e) {
+	if(e.target.classList.contains("delete")) {
+		e.target.parentElement.parentElement.remove();
+	}	
+});
