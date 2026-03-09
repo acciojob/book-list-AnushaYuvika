@@ -20,6 +20,7 @@ form.addEventListener("submit", (e) => {
 
 	const btn = document.createElement("td");
 	btn.textContent = "❌";
+	btn.classList.add("clear");
 
 	row.appendChild(td1);
 	row.appendChild(td2);
